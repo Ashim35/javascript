@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" textent="IE=edge">
+    <meta name="viewport" textent="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+    <script>
+        const text="Welcome to the world to learn Javascript"
+        document.write(`${text} <br>`)
+
+        //to count the length of a string
+        document.write(`the length of string is ${text.length} <br>`)
+
+        //to find the position of string in a string
+        document.write(`the index/position form 0 is  ${text.indexOf('to')}<br>`)
+
+        //to find the last index/position of repeated string use lastIndexOf
+        document.write(`${text.lastIndexOf('to')}<br>`)
+
+        //to replace a string 
+        document.write(`${text.replace('world','earth')}<br>`)
+
+        //replace globally, multiple replace of same word
+        document.write(`${text.replace(/to/g,'too')}<br>`)
+
+        //to uppercase
+        document.write(`${text.toUpperCase()}<br>`)
+
+        //to lowercase
+        document.write(`${text.toLowerCase()}<br>`)
+
+        //substring --> small part of a string
+
+        //slice(start,end)--> slice(0,20)           --  same 
+        //substring(start,end)-->substring(0,20)    --  same
+        //substr(start,length)-->substr(5,25)
+        
+        document.write(`${text.slice(0,20)} .......<br>`)
+        document.write(`${text.substring(0,20)} .......<br>`)
+        document.write(`${text.substr(5,25)} .......<br>`)
+    </script>
+</body>
+</html>

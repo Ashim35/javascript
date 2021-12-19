@@ -1,0 +1,18 @@
+Javascript
+
+-Programming language of Web
+-it changes the behaviour of Webpage
+
+Frontend / Client side (UI)-->React JS(Web) or React Native(Mobile)
+Backend / Server side-->Node JS / Express JS
+
+Basic Javascript
+
+Syntax :
+<script>
+...code goes here...
+</script>
+
+Types:
+i>Internal JS
+ii>External JS (file.js)

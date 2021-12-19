@@ -1,0 +1,15 @@
+Regular Expression
+
+/ / -> regular expression comes in between these symbol
+^ -> check from the start
+$ -> check from the last
+[a-z] -> match only lowercase alphabets
+[A-Z] -> match only uppercase alphabets
+[a-zA-Z] -> match both uppercase and lowercase alphabets
+[0-9] -> match only numeric values
+
+for special characters use \
+   example : \@,\#,\S(space),\- and etc
+   
+   example:  for small letter pattern should be like this
+   /^([a-z])+$/

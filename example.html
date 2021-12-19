@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+    <style>
+        #div1{
+            height: 400px;
+            width: 400px;
+            background-color: rgb(114, 174, 226);
+        }
+        .h{
+            color: rgb(129, 201, 15);
+            padding: 2px;
+            margin-top: 5px;
+            background-color: rgb(24, 15, 4);
+        }
+    </style>
+    </head>
+<body>
+    <div id="div1"></div>
+    <button class="h" onclick="lightson()">Turn on the lights</button>
+    <button onclick="lightsoff()">Turn off the lights</button>
+
+    <script>
+        function lightson(){
+            document.getElementById("div1").style.backgroundColor="yellow";
+        }
+        function lightsoff(){
+            document.getElementById("div1").style.backgroundColor="red";
+
+        }
+    </script>
+</body>
+</html>

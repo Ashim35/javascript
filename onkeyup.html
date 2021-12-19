@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onkeyup</title>
+</head>
+<body>
+    <input type="password" id="pass" onkeyup="my_fun()">
+    <p>ok</p>
+
+    <script>
+        function my_fun(){
+            let input_val=document.getElementById('pass').value
+
+            document.querySelector('p').innerHTML=input_val
+
+        }
+    </script>
+</body>
+</html>

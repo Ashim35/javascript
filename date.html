@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Method</title>
+</head>
+<body>
+    <script>
+const d=new Date()
+document.write(`The current date is : ${d}<br>`)
+
+//to get only year use getFullYear() --> 2021
+document.write(`The current year is : ${d.getFullYear()} <br>`)
+
+//to get month use getMonth()  --> 0 to 11
+document.write(`The current month is: ${d.getMonth()}<br>`)
+
+//to get date use getDate() 1 to 31
+document.write(`Current date is: ${d.getDate()}<br>`)
+
+//to get day use getDay() -->0 to 6
+document.write(`Current day is :${d.getDay()}<br>`)
+
+//to get hour use getHours --> 00 to 23
+document.write(`Current hour is :${d.getHours()}<br>`)
+
+//to get minutes use getMinutes --> 0 to 59
+document.write(`Minute :${d.getMinutes()}<br>`)
+
+//get second use getSeconds --> 0 to 59
+document.write(`Second :${d.getSeconds()}<br>`)
+
+//get milliseconds use getMilliseconds --> 0 to 999
+document.write(`Milliseconds : ${d.getMilliseconds()}<br>`)
+
+    </script>
+</body>
+</html>
